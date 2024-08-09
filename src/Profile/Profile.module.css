@@ -1,0 +1,66 @@
+.profileContainer {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 15px;
+  border: 2px solid #080808;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.profileContainer img {
+  max-width: 270px;
+  max-height: 270px;
+  border-radius: 50%;
+  background-color: #080606;
+  margin-bottom: 25px;
+}
+
+.name {
+  font-size: 46px;
+  font-weight: bold;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.tag,
+.location {
+  font-size: 42px;
+  color: #808080;
+  margin-bottom: 10px;
+}
+
+.location {
+  margin-bottom: 25px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+}
+
+.stats {
+  background-color: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  color: #000000;
+  height: 170px;
+  width: calc((100% - 33.3%) / 2);
+  padding: 20px 0 20px 0;
+  border-top: 2px solid #808080;
+}
+
+.stats:not(:last-child) {
+  border-right: 2px solid #808080;
+}
+
+.value {
+  font-weight: bold;
+}
