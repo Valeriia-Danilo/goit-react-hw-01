@@ -1,0 +1,11 @@
+.container {
+  padding-bottom: 50px;
+}
+
+.title {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
